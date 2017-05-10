@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project/18454251#18454251
+# Android Studio / IntelliJ IDEA
+*.iws
+.idea/tasks.xml
+.idea/vcs.xml
+
+# older format
+**/build
+#*~
+#*.swp
+
+# Forcibly including certain files we want propagated.
+!\.idea/codeStyleSettings.xml
+!\.idea/copyright
